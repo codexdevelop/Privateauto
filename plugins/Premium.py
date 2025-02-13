@@ -1,4 +1,4 @@
-# y need to change "6695586027" or "767250672" user_id with yr user_id (thx ki jaruRat.. nhi he !!! )
+# y need to change "6077444526" or "767250672" user_id with yr user_id (thx ki jaruRat.. nhi he !!! )
 
 # SPECIAL THANKS TO @ultroidxTeam FOR MODIFYING and 🤔 neverMind...!
 # SPECIAL THANKS TO [Rishikesh Sharma] @Rk_botowner FOR THESE AMAZING CODES
@@ -153,7 +153,7 @@ async def plan(client, message):
     user_id = message.from_user.id 
     users = message.from_user.mention 
     btn = [
-        [InlineKeyboardButton("📲 Send payment screenshot here", user_id=int(6695586027))],
+        [InlineKeyboardButton("📲 Send payment screenshot here", user_id=int(6077444526))],
         [InlineKeyboardButton("❌ Close ❌", callback_data="close_data")]
     ]
     await message.reply_photo(photo="https://telegra.ph/file/734170f40b8169830d821.jpg", caption=script.PREMIUM_TEXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
