@@ -40,7 +40,7 @@ jinja2
 apscheduler
 pyshorteners
 colorama
-
+pyromod
 
 
   
