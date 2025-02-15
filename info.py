@@ -29,7 +29,7 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://media-hosting.imagekit.io//
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'https://clickspay.in/api?api'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'clickspay.in'))
 STREAM_API = (environ.get('STREAM_API', '71d6a44224c666d4bae5824828e6d52e17533785'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/codexdisscus'))
 
@@ -62,7 +62,7 @@ VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( Fa
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/codexdisscus') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://clickspay.in/api?api')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'clickspay.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '71d6a44224c666d4bae5824828e6d52e17533785')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
