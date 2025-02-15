@@ -66,9 +66,9 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 💤"
         m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ᴛʜᴇ Movie ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ</b>.\n🫠ʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
-        await m.edit_text("🪄")
+        await m.edit_text("👀")
         await asyncio.sleep(0.5)
-        await m.edit_text("🌪️")
+        await m.edit_text("🪄")
         await asyncio.sleep(0.5)
         await m.edit_text("<b><i>🌬️ꜱᴛᴀʀᴛɪɴɢ...</i></b>")
         await asyncio.sleep(0.4)
@@ -136,9 +136,9 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 💤"
         m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ᴛʜᴇ ᴍᴏᴠɪᴇ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ</b>.\n🫠ʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
-        await m.edit_text("🪄")
+        await m.edit_text("👀")
         await asyncio.sleep(0.5)
-        await m.edit_text("🌪️")
+        await m.edit_text("🪄")
         await asyncio.sleep(0.5)
         await m.edit_text("<b><i>🌬️ꜱᴛᴀʀᴛɪɴɢ...</i></b>")
         await asyncio.sleep(0.4)
