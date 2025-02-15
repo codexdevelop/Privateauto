@@ -156,4 +156,4 @@ async def plan(client, message):
         [InlineKeyboardButton("🧐 Send payment screenshot here", user_id=int(6077444526))],
         [InlineKeyboardButton("🫧 Close 🫧", callback_data="close_data")]
     ]
-    await message.reply_photo(photo="https://telegra.ph/file/734170f40b8169830d821.jpg", caption=script.PREMIUM_TEXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
+    await message.reply_photo(photo="https://media-hosting.imagekit.io//b2f90e5282844238/1000175877.gif?Expires=1834217621&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=XqaJk6DcWzTHs5fHKqjkoObLTyXv-~apYhUhiL0YI8V7NWul0ND~hrRDB2ZhJvp6cr73XJWiQ0rZIAAEVkdRMDxfFnnUMa0hpPDY-WbaSzhUvz3A~mYMDY0f2MP6sUe2Yh3Dl4pZKx47JUd3cHsLTAECjiEHI9vShDktAkD75wKhu9ITwoEzGq0F9kmJOHwlImy8OHgIq-B6s9O2dMgNUjVy1nF0REvSNsrYt1zVFGn~NRR1Sd8NzhbP3rKj897bQsnpl2c~t65apYehhpjefpS9muXxkINcYHujwhq-TYZyQ6oIc7QPhy7XgRZDINAVV8qNha9ZBYm5yHo4JNR9RA__", caption=script.PREMIUM_TEXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
