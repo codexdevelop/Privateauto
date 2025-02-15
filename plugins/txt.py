@@ -1,6 +1,6 @@
 ''' 
-modified by t.me/UltroidxTeam
+modified by t.me/codexbotmaker
 
-Support t.me/ultroidofficial_chat
+Support t.me/codexdisscus
 
 '''
