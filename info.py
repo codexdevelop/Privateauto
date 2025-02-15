@@ -64,7 +64,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/codexdisscus') # How to o
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'clickspay.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '71d6a44224c666d4bae5824828e6d52e17533785')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
