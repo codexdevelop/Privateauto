@@ -1,4 +1,4 @@
-pyrofork==2.3.45
+pyrogram>=2.0.30 
  tgcrypto 
  pymongo[srv]==3.12.3 
  motor==2.5.1 
@@ -38,7 +38,5 @@ ffmpeg-python>=0.2.0
 jinja2
 apscheduler
 pyshorteners
+pyromod
 colorama
-
-
-  
