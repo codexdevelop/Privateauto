@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Link Search Bot')
-API_ID = int(environ.get('API_ID', '22505271'))
-API_HASH = environ.get('API_HASH', 'c89a94fcfda4bc06524d0903977fc81e')
+API_ID = int(environ.get('API_ID', '25847347'))
+API_HASH = environ.get('API_HASH', '11569826ebbc9f8b14c3ab1c5ddb937b')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6994768927:AAGJMn6BjsJjhLP7yvTYxTL8d1kZkg8OQcE")
 
 # Bot settings
@@ -34,8 +34,8 @@ STREAM_API = (environ.get('STREAM_API', '71d6a44224c666d4bae5824828e6d52e1753378
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/codexdisscus'))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6077444526').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002027563292').split()] #Channel id for auto indexing ( make sure bot is admin )
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5860228893').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002434169448').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -52,12 +52,12 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 # MongoDB information 
 # https://youtu.be/qFB0cFqiyOM?si=QGuFSZ7qhxl4VTrA
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Cluster0:Cluster0@cluster0.c07xkuf.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "MovizTube")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ap8181568:four@cluster4.ojmga.mongodb.net/?retryWrites=true&w=majority&appName=Cluster4")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster4")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify/token system
-VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 # HOWTOVERIFY = environ.get('HOWTOVERIFY', url='https://t.me/Ultroid_Official/18') 
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/codexdisscus') # How to open tutorial link for verification
 
@@ -74,7 +74,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/codexmoviehere')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/codexdisscus') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Codexownerr')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '@bhomko')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001901755533')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/codexdisscus') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
